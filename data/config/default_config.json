@@ -1,0 +1,129 @@
+{
+    "simulation": {
+        "timeStep": 0.1,
+        "speedLimit": {
+            "residential": 8.33,
+            "urban": 13.89,
+            "arterial": 16.67,
+            "highway": 27.78,
+            "freeway": 33.33
+        },
+        "randomSeed": 0
+    },
+    "vehicles": {
+        "distribution": {
+            "car": 75,
+            "bus": 5,
+            "truck": 10,
+            "motorcycle": 5,
+            "emergency": 2,
+            "bicycle": 3
+        },
+        "defaultProperties": {
+            "car": {
+                "length": 4.5,
+                "width": 1.8,
+                "maxSpeed": 33.3,
+                "acceleration": 2.5,
+                "deceleration": 5.0
+            },
+            "bus": {
+                "length": 12.0,
+                "width": 2.5,
+                "maxSpeed": 25.0,
+                "acceleration": 1.2,
+                "deceleration": 3.0,
+                "capacity": 80
+            },
+            "truck": {
+                "length": 18.0,
+                "width": 2.5,
+                "maxSpeed": 22.2,
+                "acceleration": 1.0,
+                "deceleration": 2.5
+            },
+            "motorcycle": {
+                "length": 2.0,
+                "width": 0.8,
+                "maxSpeed": 36.1,
+                "acceleration": 3.5,
+                "deceleration": 6.0
+            },
+            "emergency": {
+                "length": 5.5,
+                "width": 2.0,
+                "maxSpeed": 44.4,
+                "acceleration": 3.0,
+                "deceleration": 6.0
+            },
+            "bicycle": {
+                "length": 1.7,
+                "width": 0.5,
+                "maxSpeed": 8.3,
+                "acceleration": 1.0,
+                "deceleration": 3.0
+            }
+        }
+    },
+    "driver": {
+        "reactionTime": 1.0,
+        "following": {
+            "minDistance": 2.0,
+            "timeHeadway": 1.5
+        },
+        "laneChanging": {
+            "threshold": 0.3,
+            "bias": 0.1
+        },
+        "personality": {
+            "aggressiveness": {
+                "mean": 0.5,
+                "stdDev": 0.2
+            },
+            "compliance": {
+                "mean": 0.8,
+                "stdDev": 0.15
+            }
+        }
+    },
+    "traffic": {
+        "lights": {
+            "defaultPhases": 2,
+            "defaultDuration": 30.0,
+            "yellowDuration": 3.0,
+            "adaptive": true
+        },
+        "density": {
+            "low": 10,
+            "medium": 30,
+            "high": 60
+        }
+    },
+    "visualization": {
+        "resolution": {
+            "width": 1280,
+            "height": 720
+        },
+        "colors": {
+            "background": [240, 240, 240],
+            "road": [80, 80, 80],
+            "roadMarking": [255, 255, 255],
+            "car": [30, 144, 255],
+            "bus": [255, 165, 0],
+            "truck": [50, 205, 50],
+            "motorcycle": [220, 20, 60],
+            "emergency": [255, 0, 0],
+            "bicycle": [138, 43, 226]
+        },
+        "camera": {
+            "initialZoom": 1.0,
+            "zoomSpeed": 0.1,
+            "panSpeed": 1.0
+        }
+    },
+    "logging": {
+        "level": "info",
+        "file": "traffic_simulation.log",
+        "console": true
+    }
+}

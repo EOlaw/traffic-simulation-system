@@ -1,0 +1,320 @@
+{
+    "intersections": [
+        {
+            "id": "76f8a45e-3c10-4f0b-8e21-ae78d3b12c6a",
+            "name": "Intersection 0-0",
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "d6f79e12-89a3-4e77-ba1c-92b1fd7680d5",
+            "name": "Intersection 0-1",
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "c23a5d90-64f1-42b8-8a30-4a5fc1bd6f8e",
+            "name": "Intersection 0-2",
+            "position": {
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "3a4b7698-5d2a-47c3-91ef-6c48db7bce10",
+            "name": "Intersection 1-0",
+            "position": {
+                "x": 500.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "f281a5e3-0d16-4c0c-9a8f-7b25b8f0e2c1",
+            "name": "Intersection 1-1",
+            "position": {
+                "x": 500.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "e6a28c7d-5b3f-4e0a-9d1c-7a2f6b5c8d3e",
+            "name": "Intersection 1-2",
+            "position": {
+                "x": 500.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "901a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+            "name": "Intersection 2-0",
+            "position": {
+                "x": 1000.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1",
+            "name": "Intersection 2-1",
+            "position": {
+                "x": 1000.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+            "name": "Intersection 2-2",
+            "position": {
+                "x": 1000.0,
+                "y": 1000.0
+            }
+        }
+    ],
+    "roads": [
+        {
+            "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+            "name": "Road H0-0",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "endPoint": {
+                "x": 500.0,
+                "y": 0.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+            "name": "Road H0-1",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 500.0,
+                "y": 0.0
+            },
+            "endPoint": {
+                "x": 1000.0,
+                "y": 0.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "g3h4i5j6-k7l8-m9n0-o1p2-q3r4s5t6u7v8",
+            "name": "Road H1-0",
+            "type": "ARTERIAL",
+            "startPoint": {
+                "x": 0.0,
+                "y": 500.0
+            },
+            "endPoint": {
+                "x": 500.0,
+                "y": 500.0
+            },
+            "laneCount": 3,
+            "speedLimit": 16.67
+        },
+        {
+            "id": "w9x0y1z2-a3b4-c5d6-e7f8-g9h0i1j2k3l4",
+            "name": "Road H1-1",
+            "type": "ARTERIAL",
+            "startPoint": {
+                "x": 500.0,
+                "y": 500.0
+            },
+            "endPoint": {
+                "x": 1000.0,
+                "y": 500.0
+            },
+            "laneCount": 3,
+            "speedLimit": 16.67
+        },
+        {
+            "id": "m5n6o7p8-q9r0-s1t2-u3v4-w5x6y7z8a9b0",
+            "name": "Road H2-0",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 0.0,
+                "y": 1000.0
+            },
+            "endPoint": {
+                "x": 500.0,
+                "y": 1000.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6",
+            "name": "Road H2-1",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 500.0,
+                "y": 1000.0
+            },
+            "endPoint": {
+                "x": 1000.0,
+                "y": 1000.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "s7t8u9v0-w1x2-y3z4-a5b6-c7d8e9f0g1h2",
+            "name": "Road V0-0",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "endPoint": {
+                "x": 0.0,
+                "y": 500.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "i3j4k5l6-m7n8-o9p0-q1r2-s3t4u5v6w7x8",
+            "name": "Road V0-1",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 0.0,
+                "y": 500.0
+            },
+            "endPoint": {
+                "x": 0.0,
+                "y": 1000.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "y9z0a1b2-c3d4-e5f6-g7h8-i9j0k1l2m3n4",
+            "name": "Road V1-0",
+            "type": "ARTERIAL",
+            "startPoint": {
+                "x": 500.0,
+                "y": 0.0
+            },
+            "endPoint": {
+                "x": 500.0,
+                "y": 500.0
+            },
+            "laneCount": 3,
+            "speedLimit": 16.67
+        },
+        {
+            "id": "o5p6q7r8-s9t0-u1v2-w3x4-y5z6a7b8c9d0",
+            "name": "Road V1-1",
+            "type": "ARTERIAL",
+            "startPoint": {
+                "x": 500.0,
+                "y": 500.0
+            },
+            "endPoint": {
+                "x": 500.0,
+                "y": 1000.0
+            },
+            "laneCount": 3,
+            "speedLimit": 16.67
+        },
+        {
+            "id": "e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6",
+            "name": "Road V2-0",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 1000.0,
+                "y": 0.0
+            },
+            "endPoint": {
+                "x": 1000.0,
+                "y": 500.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        },
+        {
+            "id": "u7v8w9x0-y1z2-a3b4-c5d6-e7f8g9h0i1j2",
+            "name": "Road V2-1",
+            "type": "URBAN",
+            "startPoint": {
+                "x": 1000.0,
+                "y": 500.0
+            },
+            "endPoint": {
+                "x": 1000.0,
+                "y": 1000.0
+            },
+            "laneCount": 2,
+            "speedLimit": 13.89
+        }
+    ],
+    "connections": [
+        {
+            "roadId": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+            "startIntersectionId": "76f8a45e-3c10-4f0b-8e21-ae78d3b12c6a",
+            "endIntersectionId": "3a4b7698-5d2a-47c3-91ef-6c48db7bce10"
+        },
+        {
+            "roadId": "q7r8s9t0-u1v2-w3x4-y5z6-a7b8c9d0e1f2",
+            "startIntersectionId": "3a4b7698-5d2a-47c3-91ef-6c48db7bce10",
+            "endIntersectionId": "901a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o"
+        },
+        {
+            "roadId": "g3h4i5j6-k7l8-m9n0-o1p2-q3r4s5t6u7v8",
+            "startIntersectionId": "d6f79e12-89a3-4e77-ba1c-92b1fd7680d5",
+            "endIntersectionId": "f281a5e3-0d16-4c0c-9a8f-7b25b8f0e2c1"
+        },
+        {
+            "roadId": "w9x0y1z2-a3b4-c5d6-e7f8-g9h0i1j2k3l4",
+            "startIntersectionId": "f281a5e3-0d16-4c0c-9a8f-7b25b8f0e2c1",
+            "endIntersectionId": "p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1"
+        },
+        {
+            "roadId": "m5n6o7p8-q9r0-s1t2-u3v4-w5x6y7z8a9b0",
+            "startIntersectionId": "c23a5d90-64f1-42b8-8a30-4a5fc1bd6f8e",
+            "endIntersectionId": "e6a28c7d-5b3f-4e0a-9d1c-7a2f6b5c8d3e"
+        },
+        {
+            "roadId": "c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6",
+            "startIntersectionId": "e6a28c7d-5b3f-4e0a-9d1c-7a2f6b5c8d3e",
+            "endIntersectionId": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7"
+        },
+        {
+            "roadId": "s7t8u9v0-w1x2-y3z4-a5b6-c7d8e9f0g1h2",
+            "startIntersectionId": "76f8a45e-3c10-4f0b-8e21-ae78d3b12c6a",
+            "endIntersectionId": "d6f79e12-89a3-4e77-ba1c-92b1fd7680d5"
+        },
+        {
+            "roadId": "i3j4k5l6-m7n8-o9p0-q1r2-s3t4u5v6w7x8",
+            "startIntersectionId": "d6f79e12-89a3-4e77-ba1c-92b1fd7680d5",
+            "endIntersectionId": "c23a5d90-64f1-42b8-8a30-4a5fc1bd6f8e"
+        },
+        {
+            "roadId": "y9z0a1b2-c3d4-e5f6-g7h8-i9j0k1l2m3n4",
+            "startIntersectionId": "3a4b7698-5d2a-47c3-91ef-6c48db7bce10",
+            "endIntersectionId": "f281a5e3-0d16-4c0c-9a8f-7b25b8f0e2c1"
+        },
+        {
+            "roadId": "o5p6q7r8-s9t0-u1v2-w3x4-y5z6a7b8c9d0",
+            "startIntersectionId": "f281a5e3-0d16-4c0c-9a8f-7b25b8f0e2c1",
+            "endIntersectionId": "e6a28c7d-5b3f-4e0a-9d1c-7a2f6b5c8d3e"
+        },
+        {
+            "roadId": "e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6",
+            "startIntersectionId": "901a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+            "endIntersectionId": "p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1"
+        },
+        {
+            "roadId": "u7v8w9x0-y1z2-a3b4-c5d6-e7f8g9h0i1j2",
+            "startIntersectionId": "p6q7r8s9-t0u1-v2w3-x4y5-z6a7b8c9d0e1",
+            "endIntersectionId": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7"
+        }
+    ]
+}
